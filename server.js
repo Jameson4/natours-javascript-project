@@ -9,7 +9,7 @@ const DB = process.env.DATABASE.replace(
   process.env.DATABASE_PASSWORD,
 );
 
-console.log(process.env);
+//console.log(process.env);
 
 mongoose.connect(DB).then(() => {
   console.log('DB Connection successful');
