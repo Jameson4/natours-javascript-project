@@ -5,6 +5,7 @@ exports.getAllUsers = (req, res) => {
   });
 };
 exports.addUser = (req, res) => {
+  console.log('Adduser');
   res.status(500).json({
     status: 'error',
     message: 'Not yet implemented',
